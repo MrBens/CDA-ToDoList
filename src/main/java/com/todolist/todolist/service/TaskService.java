@@ -4,20 +4,15 @@ import com.todolist.todolist.config.JwtService;
 import com.todolist.todolist.dto.TaskDTO;
 import com.todolist.todolist.dto.UserDTO;
 import com.todolist.todolist.dtoMapper.EventMapper;
-import com.todolist.todolist.exception.EntityAlreadyExistsException;
 import com.todolist.todolist.exception.EntityNotFoundException;
 import com.todolist.todolist.model.Task;
 import com.todolist.todolist.model.User;
 import com.todolist.todolist.record.taskRequest.UpdateTaskRequest;
-import com.todolist.todolist.record.userRequest.UpdateUserResponse;
 import com.todolist.todolist.repository.TaskRepository;
 import com.todolist.todolist.utils.PropertyChecker;
 import org.springframework.security.access.AccessDeniedException;
 import org.springframework.stereotype.Service;
 
-import java.sql.Date;
-import java.time.LocalDate;
-import java.util.InputMismatchException;
 import java.util.List;
 import java.util.stream.Collectors;
 

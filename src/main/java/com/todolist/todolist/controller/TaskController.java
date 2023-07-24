@@ -1,11 +1,8 @@
 package com.todolist.todolist.controller;
 
 import com.todolist.todolist.dto.TaskDTO;
-import com.todolist.todolist.dto.UserDTO;
 import com.todolist.todolist.exception.ValidationException;
 import com.todolist.todolist.record.taskRequest.UpdateTaskRequest;
-import com.todolist.todolist.record.userRequest.UpdateUserRequest;
-import com.todolist.todolist.record.userRequest.UpdateUserResponse;
 import com.todolist.todolist.service.TaskService;
 import jakarta.validation.Valid;
 import lombok.extern.slf4j.Slf4j;
